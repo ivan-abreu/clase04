@@ -1,3 +1,34 @@
-body {
-  background: orange;
+* {
+  color: rgb(192, 56, 163);
+}
+
+header + div,
+.subtitulos,
+p {
+  color: rgb(255, 0, 0);
+}
+
+header div .subtitulos {
+  font-size: 20px;
+}
+
+#titulo1 {
+  font-weight: bold;
+}
+
+.subtitulos.liked {
+  font-weight: bold;
+}
+
+.final ~ div {
+  font-style: italic;
+}
+
+[data-precio]:hover {
+  color: rgb(0, 0, 255);
+  cursor: pointer;
+}
+
+[data-precio='30.5'] {
+  font-size: 20px;
 }
